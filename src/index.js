@@ -28,8 +28,9 @@ function seive(n) {
   return primes;
 }
 
+const primes = seive(10000); // list of all primes and none primes under 10,000
+
 function App() {
-  const primes = seive(10000); // list of all primes and none primes under 10,000
   const [interactedPrime, setInteractedPrime] = useState(2);
 
   return (
